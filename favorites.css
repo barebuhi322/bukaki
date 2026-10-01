@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.head p {
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+.menu {
+    display: flex;
+    gap: 15px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card p {
+ font-weight: 1000;
+ font-size: 22px;
+ margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.gapnav {
+    display: flex;
+    gap: 20px;
+}
+
+.menu input {
+    border: none;
+    font-size: 18px;
+}
+
+section {
+    border-top: 1px solid black;
+}
+
+.headlabel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headlabel h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.headlabel p {
+    color: rgb(153, 152, 152);
+    width: 400px;
+}
+
+.headlabel button {
+    width: 170px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.content-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.block1, .block2, .block3 {
+    background-color: lightgrey;
+    width: 400px;
+    height: 400px;
+}
+
+.footer {
+    margin: auto;
+}
+
+.footerlayer {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+}
+
+.footergridsection h1 {
+    font-size: 45px;
+}
+
+.footergridsection p {
+    font-size: 20px;
+}
+
+.footergridsection input {
+  flex: 1;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 500px;
+  height: 40px;
+}
+
+.signin {
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  right: 70px;
+}
+
+.Loremcolum1 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum1 p {
+    color: rgb(192, 192, 192);
+}
+
+.Loremcolum2 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum2 p {
+    color: rgb(192, 192, 192);
+}
+
+.Loremcolum3 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum3 p {
+    color: rgb(192, 192, 192);
+}
+
+.footerendlayer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.footerendlayer p {
+    color: white;
+    font-size: 20px;
+}

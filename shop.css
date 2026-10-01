@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.head p {
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+.menu {
+    display: flex;
+    gap: 15px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card p {
+ font-weight: 1000;
+ font-size: 22px;
+ margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.gapnav {
+    display: flex;
+    gap: 20px;
+}
+
+.menu input {
+    border: none;
+    font-size: 18px;
+}
+
+main {
+    border-top: 1px solid black;
+}
+
+.shophat {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.shophat p {
+    width: 400px;
+    color: lightgrey;
+    font-size: 18px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.filterlabel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.filterlabel h1 {
+    font-size: 25px;
+}
+
+.filterlabel p {
+    color: lightgrey;
+    text-decoration: underline;     
+}
+
+.sortbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sortbutton button {
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 35px;
+    text-align: start;
+}
+
+.sortbutton p {
+    font-weight: bold;
+}
+
+.categorieslabel {
+    padding-left: 100px;
+}
+
+.categorieslabel h1 {
+    font-size: 20px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: first baseline;
+    gap: 10px;
+    padding-left: 100px;
+}
+
+.square-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.micro-square1 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.micro-square2 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.micro-square3 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.micro-square4 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.labelcontainer p {
+    font-weight: bold;
+}
+
+.contentsquare1, .contentsquare2, .contentsquare3, .contentsquare4, .contentsquare5, .contentsquare6 {
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+}
+
+.shopcontent {
+    padding-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 18%);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.finalbutton {
+    padding: 50px;
+    padding-left: 375px;
+    display: flex;
+    justify-content: center;    
+}
+
+.finalbutton button {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+}
+
+.footer {
+    margin: auto;
+}
+
+.footerlayer {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+}
+
+.footergridsection h1 {
+    font-size: 45px;
+}
+
+.footergridsection p {
+    font-size: 20px;
+}
+
+.footergridsection input {
+  flex: 1;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 500px;
+  height: 40px;
+}
+
+.signin {
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  right: 70px;
+}
+
+.Loremcolum1 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum1 p {
+    color: rgb(192, 192, 192);
+}
+
+.Loremcolum2 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum2 p {
+    color: rgb(192, 192, 192);
+}
+
+.Loremcolum3 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum3 p {
+    color: rgb(192, 192, 192);
+}
+
+.footerendlayer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.footerendlayer p {
+    color: white;
+    font-size: 20px;
+}

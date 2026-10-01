@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.head p {
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card p {
+ font-weight: 1000;
+ font-size: 22px;
+ margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.gapnav {
+    display: flex;
+    gap: 20px;
+}
+
+.gapnav input {
+    border: none;
+    font-size: 18px;
+}
+
+main {
+    background-color: grey;
+    padding: 350px;
+}
+
+.secCategories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.secCategories h1 {
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.secCategories p {
+    max-width: 1000px;
+    font-size: 22px;
+    color: grey;
+}
+
+.secCategories button {
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.grid1 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 25px;
+}
+
+.boxgridf {
+    background-color: rgb(167, 166, 166);
+    width: 700px;
+    height: 700px;
+}
+
+.boxgrids {
+    background-color: rgb(167, 166, 166);
+    width: 700px;
+    height: 700px;
+}
+
+.boxgridt {
+    background-color: rgb(167, 166, 166);
+    width: 700px;
+    height: 700px;
+}
+
+.gridalts {
+    position: relative;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 650px;
+}
+
+.gridalts label {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.secArrivals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.secArrivals h1 {
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.secArrivals p {
+    max-width: 1000px;
+    font-size: 22px;
+    color: grey;
+}
+
+.secArrivals button {
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.grid2 {
+    display: flex;
+    justify-content: center;
+    padding: 130px;
+    gap: 25px;
+}
+
+.container {
+    background-color: rgb(167, 166, 166);
+    width: 600px;
+    height: 800px;
+}
+
+.containertop {
+    background-color: rgb(167, 166, 166);
+    width: 600px;
+    height: 800px;
+    transform: translateY(-110px);
+}
+
+.secProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.secProducts h1 {
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.secProducts p {
+    max-width: 1000px;
+    font-size: 22px;
+    color: grey;
+}
+
+.secProducts button {
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.grid3 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 25px;
+}
+
+.boxgridf-second {
+    background-color: rgb(167, 166, 166);
+    width: 700px;
+    height: 700px;
+}
+
+.boxgrids-second {
+    background-color: rgb(167, 166, 166);
+    width: 700px;
+    height: 700px;
+}
+
+.boxgridt-second {
+    background-color: rgb(167, 166, 166);
+    width: 700px;
+    height: 700px;
+}
+
+.gridalts-second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gridalts-second label {
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.gridalts-second p {
+    font-size: 27px;
+}
+
+.altfirst {
+    position: relative;
+    right: 180px;
+    bottom: 90px;
+}
+
+.altsecond {
+    position: relative;
+    right: 330px;
+    bottom: 90px;
+}
+
+.altthird {
+    position: relative;
+    right: 430px;
+    bottom: 90px;
+}
+
+.footer {
+    margin: auto;
+}
+
+.footerlayer {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+}
+
+.footergridsection h1 {
+    font-size: 45px;
+}
+
+.footergridsection p {
+    font-size: 20px;
+}
+
+.footergridsection input {
+  flex: 1;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 500px;
+  height: 40px;
+}
+
+.signin {
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  right: 70px;
+}
+
+.Loremcolum1 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum1 p {
+    color: rgb(192, 192, 192);
+}
+
+.Loremcolum2 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum2 p {
+    color: rgb(192, 192, 192);
+}
+
+.Loremcolum3 h1 {
+    font-size: 20px;
+}
+
+.Loremcolum3 p {
+    color: rgb(192, 192, 192);
+}
+
+.footerendlayer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.footerendlayer p {
+    color: white;
+    font-size: 20px;
+}
